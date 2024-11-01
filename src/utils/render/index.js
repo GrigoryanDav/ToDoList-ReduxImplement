@@ -1,4 +1,4 @@
-import { ToDoList } from '../../components/ToDoList'
+import { ToDoList } from '../../components/ToDoList/index.js'
 
 
 export const render = (store) => {

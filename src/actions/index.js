@@ -1,4 +1,4 @@
-import { ADD_TODO, REMOVE_TODO } from "../utils/constants";
+import { ADD_TODO, REMOVE_TODO } from "../utils/constants/index.js";
 
 
 export const addTodo = (store, task) => {

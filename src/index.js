@@ -1,8 +1,8 @@
-import { CreateStore } from './src/store/CreateStore'
-import { todoReducer } from './src/store/reducers'
-import { render } from './src/utils/render'
-import { addTodo, removeTodo } from './src/actions'
-import { ToDoList } from './src/components/ToDoList'
+import { CreateStore } from './store/CreateStore/index.js'
+import { todoReducer } from './store/reducers/index.js'
+import { render } from './utils/render/index.js'
+import { addTodo, removeTodo } from './actions/index.js'
+import { ToDoList } from './components/ToDoList/index.js'
 
 
 const initialState = { todos: [] }

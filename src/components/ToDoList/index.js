@@ -1,4 +1,4 @@
-import { removeTodo } from "../../actions";
+import { removeTodo } from "../../actions/index.js";
 
 
 export const ToDoList = (store) => {
