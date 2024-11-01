@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: url('../src/utils/images/todo-background.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    min-height: 20vh;
+    max-width: 500px;
+    display: flex;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 4px 8px black;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+input {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    filter: brightness(70%);
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+li > button {
+    margin-left: 30px;
+}
+
+li {
+    padding: 10px;
+}
+ 
